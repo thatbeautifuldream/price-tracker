@@ -12,6 +12,8 @@
   },
   "keywords": [
     "NodeJs",
+    "amazon",
+    "puppeteer",
     "price-tracker",
     "email-notifier"
   ],
