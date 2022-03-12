@@ -1,0 +1,30 @@
+{
+  "name": "price-tracker",
+  "version": "1.0.0",
+  "description": "- Amazon Price Tracker and Email Notifier using `NodeJs`, `nightmare`, `@sendgrid/mail`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thatbeautifuldream/price-tracker.git"
+  },
+  "keywords": [
+    "NodeJs",
+    "price-tracker",
+    "email-notifier"
+  ],
+  "author": "Milind Mishra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thatbeautifuldream/price-tracker/issues"
+  },
+  "homepage": "https://github.com/thatbeautifuldream/price-tracker#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "cron": "^1.8.2",
+    "nodemailer": "^6.7.2",
+    "puppeteer": "^13.5.1"
+  }
+}
