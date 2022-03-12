@@ -2,13 +2,10 @@ const puppeteer = require("puppeteer");
 const $ = require("cheerio").default;
 const CronJob = require("cron").CronJob;
 
-// #corePrice_desktop .a-price.a-text-price.a-size-medium.apexPriceToPay > .a-offscreen
+// Price CSS Selector : #corePrice_desktop .a-price.a-text-price.a-size-medium.apexPriceToPay > .a-offscreen
 
 const url = process.argv[2]; // node track <url>
-// https://www.amazon.in/Logitech-Advanced-Wireless-Bluetooth-Keyboard/dp/B08WK11K94/
-
 const minPrice = process.argv[3]; // node track <url> <minPrice>
-// 19000
 
 async function configureBrowser() {
   const browser = await puppeteer.launch();
