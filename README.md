@@ -73,8 +73,12 @@ async function startTracking() {
 
 ## Usage
 
-The project is basically a nodejs script that can be run from the command line with the following command:
+The project is basically a Nodejs script that can be run from the command line.
+In order to run this locally you need to clone the project and set up requirements and run the command:
 
 ```bash
 node track <amazon.in-url-to-track> <price-threshold>
 ```
+
+- `amazon.in-url-to-track` is the url of the product you want to track
+- `price-threshold` is the price limit you want to track for the product
