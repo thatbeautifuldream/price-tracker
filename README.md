@@ -2,7 +2,7 @@
 
 JavaScript quickstart project for `amazon.in` price tracking.
 
-<a href="https://www.youtube.com/watch?v=lI5w2QwdYik">
+<a href="https://www.youtube.com/watch?v=lI5w2QwdYik" target="_blank">
   <img src ="https://user-images.githubusercontent.com/28717686/158073532-1ca79dd7-d5d5-430b-a6b2-099a7ac22ca7.png">
 </a>
 
