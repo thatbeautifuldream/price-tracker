@@ -82,3 +82,12 @@ node track <amazon.in-url-to-track> <price-threshold>
 
 - `amazon.in-url-to-track` is the url of the product you want to track
 - `price-threshold` is the price limit you want to track for the product
+
+## Demo Video
+
+https://user-images.githubusercontent.com/28717686/158068407-8331c5ff-81da-4974-92ff-5c1581f4515c.mp4
+
+
+
+
+
